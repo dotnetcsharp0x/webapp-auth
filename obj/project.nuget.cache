@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "dgSpecHash": "DtAvnKfdBsjFIi3oRZVD7zYSIe60kYbLaLnwONXIE/zeJ8zH5OJlxLN1lEThUxREoWqSjMkixoM0utTJE4AXIA==",
+  "success": true,
+  "projectFilePath": "/home/rubi/Desktop/aspnet/webapp-auth/webapp-auth.csproj",
+  "expectedPackageFiles": [
+    "/home/rubi/.nuget/packages/microsoft.extensions.configuration/3.1.4/microsoft.extensions.configuration.3.1.4.nupkg.sha512",
+    "/home/rubi/.nuget/packages/microsoft.extensions.configuration.abstractions/3.1.4/microsoft.extensions.configuration.abstractions.3.1.4.nupkg.sha512",
+    "/home/rubi/.nuget/packages/microsoft.extensions.configuration.fileextensions/3.1.4/microsoft.extensions.configuration.fileextensions.3.1.4.nupkg.sha512",
+    "/home/rubi/.nuget/packages/microsoft.extensions.configuration.json/3.1.4/microsoft.extensions.configuration.json.3.1.4.nupkg.sha512",
+    "/home/rubi/.nuget/packages/microsoft.extensions.fileproviders.abstractions/3.1.4/microsoft.extensions.fileproviders.abstractions.3.1.4.nupkg.sha512",
+    "/home/rubi/.nuget/packages/microsoft.extensions.fileproviders.physical/3.1.4/microsoft.extensions.fileproviders.physical.3.1.4.nupkg.sha512",
+    "/home/rubi/.nuget/packages/microsoft.extensions.filesystemglobbing/3.1.4/microsoft.extensions.filesystemglobbing.3.1.4.nupkg.sha512",
+    "/home/rubi/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.4/microsoft.extensions.logging.abstractions.3.1.4.nupkg.sha512",
+    "/home/rubi/.nuget/packages/microsoft.extensions.primitives/3.1.4/microsoft.extensions.primitives.3.1.4.nupkg.sha512",
+    "/home/rubi/.nuget/packages/nancy/1.4.1/nancy.1.4.1.nupkg.sha512",
+    "/home/rubi/.nuget/packages/nancy.serialization.jsonnet/1.4.1/nancy.serialization.jsonnet.1.4.1.nupkg.sha512",
+    "/home/rubi/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/home/rubi/.nuget/packages/restclient/3.1024.23771/restclient.3.1024.23771.nupkg.sha512",
+    "/home/rubi/.nuget/packages/restrequest/1.2.0/restrequest.1.2.0.nupkg.sha512",
+    "/home/rubi/.nuget/packages/restsharp/110.2.0/restsharp.110.2.0.nupkg.sha512",
+    "/home/rubi/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
+    "/home/rubi/.nuget/packages/system.text.json/7.0.2/system.text.json.7.0.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Nancy 1.4.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Nancy",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Nancy.Serialization.JsonNet 1.4.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Nancy.Serialization.JsonNet",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

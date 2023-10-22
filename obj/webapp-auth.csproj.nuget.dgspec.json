@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/rubi/Desktop/aspnet/webapp-auth/webapp-auth.csproj": {}
+  },
+  "projects": {
+    "/home/rubi/Desktop/aspnet/webapp-auth/webapp-auth.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rubi/Desktop/aspnet/webapp-auth/webapp-auth.csproj",
+        "projectName": "webapp-auth",
+        "projectPath": "/home/rubi/Desktop/aspnet/webapp-auth/webapp-auth.csproj",
+        "packagesPath": "/home/rubi/.nuget/packages/",
+        "outputPath": "/home/rubi/Desktop/aspnet/webapp-auth/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rubi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Nancy.Serialization.JsonNet": {
+              "target": "Package",
+              "version": "[1.4.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RestClient": {
+              "target": "Package",
+              "version": "[3.1024.23771, )"
+            },
+            "RestRequest": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
